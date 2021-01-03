@@ -161,8 +161,49 @@ h4{
     color: #71b100;
     font-weight: 700;
 }
+
+.iconos-caracteristias{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconos-caracteristias li{
+   /** flex: 1;**/
+    display: flex;
+}
+
+.iconos-caracteristias li img{
+    margin-right:2rem;
+}
+
 .ver-todas{
     
     display: flex;
     justify-content: flex-end;
 }
+
+/** Contacto Home**/
+
+.imagen-contacto{
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto{
+    /** detecta el tamanio para tenerlo centrado**/
+    flex:1;
+    color:white;
+
+}
+
+.contenido-contacto p{
+    font-size: 1.8rem;
+}
+
