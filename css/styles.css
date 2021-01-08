@@ -219,7 +219,7 @@ h4{
 }
 
 .seccion-inferior .testimoniales{
-    flex-basis: calc(40%-2rem);
+    flex-basis: calc(40% - 2rem);
 }
 
 .entrada-blog{
@@ -228,12 +228,16 @@ h4{
     margin-bottom: 2rem;
 }
 
+.entrada-blog:last-of-type{
+    margin-bottom: 0;
+}
+
 .entrada-blog .imagen{
     flex-basis: 40%;
 }
 
 .entrada-blog  .texto-entrada{
-    flex-basis: calc(60%-3rem);
+    flex-basis: calc(60% - 3rem);
 }
 
 .texto-entrada h4{
